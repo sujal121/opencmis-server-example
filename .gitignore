@@ -5,9 +5,9 @@
 /dist/nbprojectz
 
 # Intellij
-.idea/
+#.idea/
 #*.iml
-*.iws
+#*.iws
 
 # Netbeans
 nbproject/
