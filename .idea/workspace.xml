@@ -21,41 +21,19 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="710">
+            <state relative-caret-position="765">
               <caret line="51" column="23" lean-forward="false" selection-start-line="51" selection-start-column="23" selection-end-line="51" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="web.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+            <state relative-caret-position="210">
+              <caret line="14" column="6" lean-forward="false" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HelloWorldServlet.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/opencmis/server/HelloWorldServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -87,6 +65,15 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/main/java/com/opencmis/server/FileBridgeRepositoryManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/opencmis/server/FlieBridgeRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/opencmis/server/FileBridgeRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/opencmis/server/FileBridgeTypeManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/opencmis/server/FileBridgeUserManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/opencmis/server/FileBridgeUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/opencmis/server/ContentRangeInputStream.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/opencmis/server/FileBridgeCmisServiceFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/opencmis/server/FileBridgeCmisService.java" />
       </list>
     </option>
   </component>
@@ -114,10 +101,12 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1066" />
+    <option name="y" value="23" />
+    <option name="width" value="1680" />
+    <option name="height" value="975" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -134,6 +123,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -142,6 +134,16 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="opencmis-server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="opencmis-server" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -156,15 +158,42 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value=".idea" />
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="opencmis-server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="opencmis-server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -661,6 +690,9 @@
       <workItem from="1489015675453" duration="144000" />
       <workItem from="1489015890789" duration="263000" />
       <workItem from="1489016349185" duration="343000" />
+      <workItem from="1489091168943" duration="1766000" />
+      <workItem from="1489111171589" duration="59000" />
+      <workItem from="1489111273350" duration="4815000" />
     </task>
     <task id="LOCAL-00001" summary=".gitignore">
       <created>1489016678283</created>
@@ -673,11 +705,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11786000" />
+    <option name="totallyTimeSpent" value="18426000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="0" />
-    <editor active="false" />
+    <frame x="0" y="23" width="1680" height="975" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -700,7 +732,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32976446" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32976446" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26066098" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21367522" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -732,6 +764,108 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="51" column="23" lean-forward="false" selection-start-line="51" selection-start-column="23" selection-end-line="51" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/opencmis/server/HelloWorldServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="51" column="23" lean-forward="false" selection-start-line="51" selection-start-column="23" selection-end-line="51" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/opencmis/server/HelloWorldServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="51" column="23" lean-forward="false" selection-start-line="51" selection-start-column="23" selection-end-line="51" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/opencmis/server/HelloWorldServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -832,16 +966,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/opencmis/server/HelloWorldServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/overlays/org.apache.chemistry.opencmis.chemistry-opencmis-server-bindings-war-0.11.0.info">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -853,7 +977,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-204">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -861,30 +984,242 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        <state relative-caret-position="600">
+          <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="710">
+        <state relative-caret-position="765">
           <caret line="51" column="23" lean-forward="false" selection-start-line="51" selection-start-column="23" selection-end-line="51" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/opencmis/server/FlieBridgeRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+        <state relative-caret-position="681">
+          <caret line="107" column="0" lean-forward="true" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/opencmis/server/FileBridgeRepositoryManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="37" column="9" lean-forward="true" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/opencmis/server/FileBridgeTypeManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="855">
+          <caret line="57" column="61" lean-forward="false" selection-start-line="57" selection-start-column="47" selection-end-line="57" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/opencmis/server/FileBridgeUserManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1065">
+          <caret line="75" column="0" lean-forward="false" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/opencmis/server/FileBridgeUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1890">
+          <caret line="126" column="0" lean-forward="false" selection-start-line="126" selection-start-column="0" selection-end-line="126" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/opencmis/server/FileBridgeRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="938" column="52" lean-forward="false" selection-start-line="938" selection-start-column="29" selection-end-line="938" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;class#FileBridgeRepository#0" expanded="false" />
+            <element signature="e#12376#12398#0" expanded="true" />
+            <element signature="e#12724#12743#0" expanded="true" />
+            <element signature="e#14602#14629#0" expanded="true" />
+            <element signature="method#createMapping#0;class#FileBridgeRepository#0" expanded="false" />
+            <element signature="docComment;method#getRepositoryId#0;class#FileBridgeRepository#0" expanded="false" />
+            <element signature="docComment;method#getRootDirectory#0;class#FileBridgeRepository#0" expanded="false" />
+            <element signature="docComment;method#setUserReadOnly#0;class#FileBridgeRepository#0" expanded="false" />
+            <element signature="method#setUserReadOnly#0;class#FileBridgeRepository#0" expanded="false" />
+            <element signature="docComment;method#setUserReadWrite#0;class#FileBridgeRepository#0" expanded="false" />
+            <element signature="method#setUserReadWrite#0;class#FileBridgeRepository#0" expanded="false" />
+            <element signature="docComment;method#getRepositoryInfo#0;class#FileBridgeRepository#0" expanded="false" />
+            <element signature="method#getRepositoryInfo#0;class#FileBridgeRepository#0" expanded="false" />
+            <element signature="docComment;method#getTypeChildren#0;class#FileBridgeRepository#0" expanded="false" />
+            <element signature="method#getTypeChildren#0;class#FileBridgeRepository#0" expanded="false" />
+            <element signature="docComment;method#getTypeDescendants#0;class#FileBridgeRepository#0" expanded="false" />
+            <element signature="method#getTypeDescendants#0;class#FileBridgeRepository#0" expanded="false" />
+            <element signature="docComment;method#getTypeDefinition#0;class#FileBridgeRepository#0" expanded="false" />
+            <element signature="method#getTypeDefinition#0;class#FileBridgeRepository#0" expanded="false" />
+            <element signature="docComment;method#create#0;class#FileBridgeRepository#0" expanded="false" />
+            <element signature="method#create#0;class#FileBridgeRepository#0" expanded="false" />
+            <element signature="docComment;method#createDocument#0;class#FileBridgeRepository#0" expanded="false" />
+            <element signature="method#createDocument#0;class#FileBridgeRepository#0" expanded="false" />
+            <element signature="docComment;method#createDocumentFromSource#0;class#FileBridgeRepository#0" expanded="false" />
+            <element signature="method#createDocumentFromSource#0;class#FileBridgeRepository#0" expanded="false" />
+            <element signature="docComment;method#writeContent#0;class#FileBridgeRepository#0" expanded="false" />
+            <element signature="method#writeContent#0;class#FileBridgeRepository#0" expanded="false" />
+            <element signature="docComment;method#createFolder#0;class#FileBridgeRepository#0" expanded="false" />
+            <element signature="method#createFolder#0;class#FileBridgeRepository#0" expanded="false" />
+            <element signature="docComment;method#moveObject#0;class#FileBridgeRepository#0" expanded="false" />
+            <element signature="method#moveObject#0;class#FileBridgeRepository#0" expanded="false" />
+            <element signature="docComment;method#changeContentStream#0;class#FileBridgeRepository#0" expanded="false" />
+            <element signature="method#changeContentStream#0;class#FileBridgeRepository#0" expanded="false" />
+            <element signature="docComment;method#deleteObject#0;class#FileBridgeRepository#0" expanded="false" />
+            <element signature="method#deleteObject#0;class#FileBridgeRepository#0" expanded="false" />
+            <element signature="docComment;method#deleteTree#0;class#FileBridgeRepository#0" expanded="false" />
+            <element signature="method#deleteTree#0;class#FileBridgeRepository#0" expanded="false" />
+            <element signature="docComment;method#deleteFolder#0;class#FileBridgeRepository#0" expanded="false" />
+            <element signature="method#deleteFolder#0;class#FileBridgeRepository#0" expanded="false" />
+            <element signature="docComment;method#updateProperties#0;class#FileBridgeRepository#0" expanded="false" />
+            <element signature="method#updateProperties#0;class#FileBridgeRepository#0" expanded="false" />
+            <element signature="docComment;method#bulkUpdateProperties#0;class#FileBridgeRepository#0" expanded="false" />
+            <element signature="method#bulkUpdateProperties#0;class#FileBridgeRepository#0" expanded="false" />
+            <element signature="docComment;method#getObject#0;class#FileBridgeRepository#0" expanded="false" />
+            <element signature="method#getObject#0;class#FileBridgeRepository#0" expanded="false" />
+            <element signature="e#33162#33227#0" expanded="false" />
+            <element signature="docComment;method#getAllowableActions#0;class#FileBridgeRepository#0" expanded="false" />
+            <element signature="method#getAllowableActions#0;class#FileBridgeRepository#0" expanded="false" />
+            <element signature="docComment;method#getAcl#0;class#FileBridgeRepository#0" expanded="false" />
+            <element signature="method#getAcl#0;class#FileBridgeRepository#0" expanded="false" />
+            <element signature="docComment;method#getContentStream#0;class#FileBridgeRepository#0" expanded="false" />
+            <element signature="docComment;method#getChildren#0;class#FileBridgeRepository#0" expanded="false" />
+            <element signature="method#getChildren#0;class#FileBridgeRepository#0" expanded="false" />
+            <element signature="docComment;method#getDescendants#0;class#FileBridgeRepository#0" expanded="false" />
+            <element signature="method#getDescendants#0;class#FileBridgeRepository#0" expanded="false" />
+            <element signature="docComment;method#gatherDescendants#0;class#FileBridgeRepository#0" expanded="false" />
+            <element signature="method#gatherDescendants#0;class#FileBridgeRepository#0" expanded="false" />
+            <element signature="docComment;method#getFolderParent#0;class#FileBridgeRepository#0" expanded="false" />
+            <element signature="method#getFolderParent#0;class#FileBridgeRepository#0" expanded="false" />
+            <element signature="docComment;method#getObjectParents#0;class#FileBridgeRepository#0" expanded="false" />
+            <element signature="method#getObjectParents#0;class#FileBridgeRepository#0" expanded="false" />
+            <element signature="docComment;method#getObjectByPath#0;class#FileBridgeRepository#0" expanded="false" />
+            <element signature="method#getObjectByPath#0;class#FileBridgeRepository#0" expanded="false" />
+            <element signature="docComment;method#query#0;class#FileBridgeRepository#0" expanded="false" />
+            <element signature="method#query#0;class#FileBridgeRepository#0" expanded="false" />
+            <element signature="docComment;method#compileObjectData#0;class#FileBridgeRepository#0" expanded="false" />
+            <element signature="method#compileObjectData#0;class#FileBridgeRepository#0" expanded="false" />
+            <element signature="docComment;method#compileProperties#0;class#FileBridgeRepository#0" expanded="false" />
+            <element signature="method#compileProperties#0;class#FileBridgeRepository#0" expanded="false" />
+            <element signature="docComment;method#checkNewProperties#0;class#FileBridgeRepository#0" expanded="false" />
+            <element signature="method#checkNewProperties#0;class#FileBridgeRepository#0" expanded="false" />
+            <element signature="docComment;method#checkCopyProperties#0;class#FileBridgeRepository#0" expanded="false" />
+            <element signature="method#checkCopyProperties#0;class#FileBridgeRepository#0" expanded="false" />
+            <element signature="docComment;method#checkUpdateProperties#0;class#FileBridgeRepository#0" expanded="false" />
+            <element signature="method#checkUpdateProperties#0;class#FileBridgeRepository#0" expanded="false" />
+            <element signature="docComment;method#checkTypeProperties#0;class#FileBridgeRepository#0" expanded="false" />
+            <element signature="method#checkTypeProperties#0;class#FileBridgeRepository#0" expanded="false" />
+            <element signature="method#addPropertyId#0;class#FileBridgeRepository#0" expanded="false" />
+            <element signature="method#addPropertyIdList#0;class#FileBridgeRepository#0" expanded="false" />
+            <element signature="method#addPropertyString#0;class#FileBridgeRepository#0" expanded="false" />
+            <element signature="method#addPropertyInteger#0;class#FileBridgeRepository#0" expanded="false" />
+            <element signature="method#addPropertyBigInteger#0;class#FileBridgeRepository#0" expanded="false" />
+            <element signature="method#addPropertyBoolean#0;class#FileBridgeRepository#0" expanded="false" />
+            <element signature="method#addPropertyDateTime#0;class#FileBridgeRepository#0" expanded="false" />
+            <element signature="method#checkAddProperty#0;class#FileBridgeRepository#0" expanded="false" />
+            <element signature="docComment;method#compileAllowableActions#0;class#FileBridgeRepository#0" expanded="false" />
+            <element signature="method#compileAllowableActions#0;class#FileBridgeRepository#0" expanded="false" />
+            <element signature="method#addAction#0;class#FileBridgeRepository#0" expanded="false" />
+            <element signature="docComment;method#compileAcl#0;class#FileBridgeRepository#0" expanded="false" />
+            <element signature="method#compileAcl#0;class#FileBridgeRepository#0" expanded="false" />
+            <element signature="docComment;method#isValidName#0;class#FileBridgeRepository#0" expanded="false" />
+            <element signature="method#isValidName#0;class#FileBridgeRepository#0" expanded="false" />
+            <element signature="docComment;method#isFolderEmpty#0;class#FileBridgeRepository#0" expanded="false" />
+            <element signature="method#isFolderEmpty#0;class#FileBridgeRepository#0" expanded="false" />
+            <element signature="docComment;method#checkUser#0;class#FileBridgeRepository#0" expanded="false" />
+            <element signature="method#checkUser#0;class#FileBridgeRepository#0" expanded="false" />
+            <element signature="docComment;method#getFile#0;class#FileBridgeRepository#0" expanded="false" />
+            <element signature="method#getFile#0;class#FileBridgeRepository#0" expanded="false" />
+            <element signature="docComment;method#idToFile#0;class#FileBridgeRepository#0" expanded="false" />
+            <element signature="method#idToFile#0;class#FileBridgeRepository#0" expanded="false" />
+            <element signature="docComment;method#getId#0;class#FileBridgeRepository#0" expanded="false" />
+            <element signature="method#getId#0;class#FileBridgeRepository#0" expanded="false" />
+            <element signature="docComment;method#fileToId#0;class#FileBridgeRepository#0" expanded="false" />
+            <element signature="method#fileToId#0;class#FileBridgeRepository#0" expanded="false" />
+            <element signature="method#getRepositoryPath#0;class#FileBridgeRepository#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/opencmis/server/ContentRangeInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="11" column="45" lean-forward="false" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/opencmis/server/HelloWorldServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/opencmis/server/FileBridgeCmisService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5400">
+          <caret line="380" column="0" lean-forward="true" selection-start-line="380" selection-start-column="0" selection-end-line="380" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/opencmis/server/FileBridgeCmisServiceFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="45" column="61" lean-forward="false" selection-start-line="45" selection-start-column="40" selection-end-line="45" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;class#FileBridgeCmisServiceFactory#0" expanded="false" />
+            <element signature="docComment;field#DEFAULT_MAX_ITEMS_TYPES#0;class#FileBridgeCmisServiceFactory#0" expanded="false" />
+            <element signature="docComment;field#DEFAULT_DEPTH_TYPES#0;class#FileBridgeCmisServiceFactory#0" expanded="false" />
+            <element signature="docComment;field#DEFAULT_MAX_ITEMS_OBJECTS#0;class#FileBridgeCmisServiceFactory#0" expanded="false" />
+            <element signature="docComment;field#DEFAULT_DEPTH_OBJECTS#0;class#FileBridgeCmisServiceFactory#0" expanded="false" />
+            <element signature="method#init#0;class#FileBridgeCmisServiceFactory#0" expanded="false" />
+            <element signature="method#getService#0;class#FileBridgeCmisServiceFactory#0" expanded="false" />
+            <element signature="e#3350#3374#0" expanded="false" />
+            <element signature="e#3532#3569#0" expanded="false" />
+            <element signature="e#4009#4082#0" expanded="false" />
+            <element signature="docComment;method#readConfiguration#0;class#FileBridgeCmisServiceFactory#0" expanded="false" />
+            <element signature="method#readConfiguration#0;class#FileBridgeCmisServiceFactory#0" expanded="false" />
+            <element signature="docComment;method#split#0;class#FileBridgeCmisServiceFactory#0" expanded="false" />
+            <element signature="method#split#0;class#FileBridgeCmisServiceFactory#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="6" lean-forward="false" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
           <folding />
         </state>
       </provider>
