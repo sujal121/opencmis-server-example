@@ -4,14 +4,43 @@ import java.io.*;
 import javax.servlet.*;
 import javax.servlet.http.*;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+
 /**
  * HelloWorldServlet class
  */
 public class HelloWorldServlet extends HttpServlet {
 
+    private final static Logger LOG = LoggerFactory.getLogger(HelloWorldServlet.class.getName());
+
     @Override
-    public void doGet(HttpServletRequest request, HttpServletResponse response)
-            throws IOException, ServletException {
+    public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
+
+        //Write to console
+        System.out.println("Log4j DEBUG Level enabled: " + LOG.isDebugEnabled());
+        System.out.println("Log4j TRACE Level enabled: " + LOG.isTraceEnabled());
+        //Write error to console
+        System.err.println("Write some error to the console...");
+
+        //Log4j write to log message
+        LOG.info("INFO doGet method '{}'.", LOG);
+        LOG.warn("WARN doGet method '{}'.", LOG);
+        LOG.error("ERROR doGet method '{}'.", LOG);
+        LOG.debug("DEBUG doGet method '{}'.", LOG);
+        LOG.trace("TRACE doGet method '{}'.", LOG);
+
+        //get <init-param> from servlet configuration
+        System.out.println("Context init param - \"email\": " + getServletContext().getInitParameter("email"));
+        System.out.println("Servlet init param - \"name\": " + getServletConfig().getInitParameter("name"));
+
+        try {
+            throw new IOException();
+        } catch (IOException e) {
+            System.err.println("Caught IOException: " + e.getMessage());
+        }
+
         // Set the response message's MIME type.
         response.setContentType("text/html;charset=UTF-8");
         // Allocate a output writer to write the response message into the network socket.

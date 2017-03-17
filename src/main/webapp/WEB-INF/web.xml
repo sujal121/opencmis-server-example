@@ -6,9 +6,25 @@
 
     <!-- Experimental stuff -->
 
+    <!-- This is a context init parameter -->
+    <context-param>
+        <param-name>email</param-name>
+        <param-value>andreros@gmail.com</param-value>
+    </context-param>
+
     <servlet>
         <servlet-name>HelloWorldServlet</servlet-name>
         <servlet-class>com.opencmis.server.HelloWorldServlet</servlet-class>
+        <!-- This is a servlet init parameter -->
+        <init-param>
+            <param-name>name</param-name>
+            <param-value>Hello World Servlet by André Rosa</param-value>
+        </init-param>
+        <!--
+            load-on-startup > 0 value means that servlet is instantiated and executed at container startup.
+            load-on-startup = 0 value means that servlet is instantiated and executed when a request comes to that servlet.
+        -->
+        <load-on-startup>1</load-on-startup>
     </servlet>
 
     <servlet-mapping>
