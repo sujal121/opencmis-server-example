@@ -12,9 +12,22 @@
         <param-value>andreros@gmail.com</param-value>
     </context-param>
 
+    <context-param>
+        <param-name>datasource</param-name>
+        <param-value>file.txt</param-value>
+    </context-param>
+
+    <listener>
+        <listener-class>com.opencmis.experimental.ImplServletContextListener</listener-class>
+    </listener>
+
+    <listener>
+        <listener-class>com.opencmis.experimental.ImplServletContextAttributeListener</listener-class>
+    </listener>
+
     <servlet>
         <servlet-name>HelloWorldServlet</servlet-name>
-        <servlet-class>com.opencmis.server.HelloWorldServlet</servlet-class>
+        <servlet-class>com.opencmis.experimental.HelloWorldServlet</servlet-class>
         <!-- This is a servlet init parameter -->
         <init-param>
             <param-name>name</param-name>

@@ -1,8 +1,10 @@
-package com.opencmis.server;
+package com.opencmis.experimental;
 
 import java.io.*;
 import javax.servlet.*;
 import javax.servlet.http.*;
+
+import com.opencmis.experimental.DataSource;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -40,6 +42,17 @@ public class HelloWorldServlet extends HttpServlet {
         } catch (IOException e) {
             System.err.println("Caught IOException: " + e.getMessage());
         }
+
+        //Context Listeners
+        // Get datasource datasourceattribute
+        DataSource ds = (DataSource) getServletContext().getAttribute("datasource");
+        System.out.println("Context attribute stored on context initialisation: " + ds.getFileName());
+        // Create a new DataSource object and replace ServletContext datasource attribute
+        DataSource ds2 = new DataSource("anotherFile.txt");
+        getServletContext().setAttribute("datasource", ds2);
+        // Remove ServletContext datasource attribute
+        getServletContext().removeAttribute("datasource");
+
 
         // Set the response message's MIME type.
         response.setContentType("text/html;charset=UTF-8");

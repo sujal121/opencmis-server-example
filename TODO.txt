@@ -1,1 +1,1 @@
-Study web-xml listeners
+Review the "OpenCMIS Server Development Guide.pdf" exercises
